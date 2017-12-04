@@ -1,0 +1,43 @@
+$container-sm : 750px;
+$container-md: 970px;
+$container-lg: 1200px;
+
+
+.container{
+    width: $container-lg;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+
+    // @include container-fixed;
+
+    @include media(md){
+        width: $container-md;
+    }
+
+    @include media(sm){
+        width: $container-sm;
+    }
+
+    @include media(xs){
+        width: auto;
+       
+    }
+
+
+   
+}  
+
+
+.col-12{
+    float: left;
+    width: 100%;
+    @include media(xs){
+        width: 100%;
+    }
+}
+
+
+

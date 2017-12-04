@@ -1,0 +1,21 @@
+
+.search-n-menu-icon{
+    margin-left: 10px;
+
+    .icons{
+        float:left;
+    }
+    
+    .icons{
+        margin-left: 10px;
+        color: $white;
+        margin-top: 10px;
+
+        .bars{
+            display: none;
+            @include media(xs){
+				display: inline;			
+			}
+        }
+    }
+}

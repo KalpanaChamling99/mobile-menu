@@ -1,0 +1,27 @@
+
+.nav{
+	background-color: $blue;
+
+
+	.wrapper{
+		@include media(xs){
+			padding-top: 30px;
+		}
+
+	}	
+
+	.nav-menu{
+		.right-menu{
+			font-size: 15px;
+			@include media(xs){
+				display: none;
+				text-align: center;
+			}
+		}
+	}		
+
+}
+
+
+
+
